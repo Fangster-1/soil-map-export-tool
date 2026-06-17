@@ -2,7 +2,6 @@
 dist/
 build/
 *.spec
-soil_map_export_tool.py
 
 # 运行时生成的文件
 出图工具配置.txt
