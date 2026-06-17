@@ -8,9 +8,6 @@ build/
 出图日志.txt
 启动错误.txt
 
-# 发布版中的 exe（太大，用 GitHub Releases 分发）
-出图工具_发布版(单文件)/土壤类型出图工具.exe
-
 # Python
 __pycache__/
 *.pyc

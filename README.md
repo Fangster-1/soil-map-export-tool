@@ -283,9 +283,7 @@ soil-map-export-tool/
 ├─ 一键出图.bat                源码启动入口（自动探测 ArcGIS Pro Python）
 ├─ 重新打包exe.bat             一键重新打包 EXE
 ├─ CLAUDE.md                  面向 AI 协作者的项目说明
-├─ README.md                  本文档
-└─ 出图工具_发布版(单文件)/
-   └─ 使用说明.txt             最终用户使用说明
+└─ README.md                  本文档
 ```
 
 > EXE 发布包（`SoilMapExportTool.exe` + `README_Usage.txt`）通过 [GitHub Releases](https://github.com/Fangster-1/soil-map-export-tool/releases) 下载，不纳入仓库。
