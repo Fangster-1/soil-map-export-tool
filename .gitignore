@@ -1,0 +1,23 @@
+# PyInstaller 构建产物
+dist/
+build/
+*.spec
+soil_map_export_tool.py
+
+# 运行时生成的文件
+出图工具配置.txt
+出图日志.txt
+启动错误.txt
+
+# 发布版中的 exe（太大，用 GitHub Releases 分发）
+出图工具_发布版(单文件)/土壤类型出图工具.exe
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
