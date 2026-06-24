@@ -1678,7 +1678,7 @@ def run_gui() -> None:
     tk.Entry(_cf, textvariable=vars_["county"], width=12).pack(side="left")
     tk.Label(
         _cf,
-        text="  例：宾川县  （留空则从数据路径自动识别；图名格式：xx县红壤分布图）",
+        text="  例：xx县  （留空则从数据路径自动识别；图名格式：xx县红壤分布图）",
         fg="#888888", font=("", 8),
     ).pack(side="left")
 
@@ -1827,7 +1827,7 @@ def parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
     p.add_argument("--mode", default="generate", choices=["generate", "export"],
                    help="generate=生成布局工程；export=批量导出 JPG")
     p.add_argument("--county", default="",
-                   help="县/市名称（如：宾川县），留空则从数据路径自动识别")
+                   help="县/市名称（如：xx县），留空则从数据路径自动识别")
     p.add_argument("--mxd", default=str(CFG_FRAMES_BASE_DIR),
                    help="A3 图框底图 .mxd 路径")
     p.add_argument("--source-layer", default=str(CFG_SOIL_GDB_BASE_DIR),
