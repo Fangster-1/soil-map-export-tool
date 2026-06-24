@@ -287,3 +287,9 @@ soil-map-export-tool/
 ```
 
 > EXE 发布包（`SoilMapExportTool.exe` + `README_Usage.txt`）通过 [GitHub Releases](https://github.com/Fangster-1/soil-map-export-tool/releases) 下载，不纳入仓库。
+
+---
+
+## 作者
+
+方庆坪 · 微信同号：19988312343
